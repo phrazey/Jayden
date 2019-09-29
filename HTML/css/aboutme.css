@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    font-family: 'Mukta', sans-serif;
+    line-height: 180%;
+    text-align: center
+}
+body{ 
+    background: rgb(240, 248, 255);
+    background-color: rgba(128, 128, 128, 0.719);
+    margin: 0%;
+    padding: 0%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+}
+.parallax1 {
+background: url(../img/moon.jpg) no-repeat;
+min-height: 80%;
+}
+.parallax2 {
+    background: url(../img/night.jpg) no-repeat;
+    min-height: 087%;
+}
+.parallax3 {
+    background: url(../img/nicer.jpg);
+    min-height: 70%
+}
+.parallax4 {
+    background: url(../img/bridge.jpg) no-repeat;
+    min-height: 60%
+}
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading {
+    position: absolute;
+    font-size: 50px;
+    color: #ffff;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left;
+
+}
+section {
+    overflow: auto;
+    padding: 50px 80px;
+}
+.dark {
+overflow: auto;
+padding: 50px 80px;
+background-color: #323232;
+color: #f2f2f2;
+}
+.light {
+    background-color: rgb(64, 69, 73);
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 4px;
+
+}
+@media (max-width: 760px) {
+    .heading {
+        font-size: 250%;
+    }
+    .two-col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
